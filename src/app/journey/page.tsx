@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import JourneyMap from "@/components/JourneyMap";
+import JourneyView from "@/components/JourneyView";
+import { buildMapModel } from "@/lib/map/mapModel";
 import { createClient } from "@/lib/supabase/server";
-import { focus, progressSummary, stageNodes, type StageMeta } from "@/lib/engine/engine";
+import { focus, progressSummary } from "@/lib/engine/engine";
 import type { Journey, JourneyTask } from "@/lib/journey/types";
 
 export const metadata = { title: "My journey map | PathWise" };
@@ -13,12 +14,11 @@ export default async function JourneyPage() {
   if (!user) redirect("/login");
   const { data: journey } = await supabase.from("journeys").select("id, destination_city, intended_category").maybeSingle<Journey>();
   if (!journey) redirect("/questionnaire");
-  const [{ data: t }, { data: s }] = await Promise.all([
+  const [{ data: t }] = await Promise.all([
     supabase.from("journey_tasks").select("*").eq("journey_id", journey.id).order("position"),
-    supabase.from("roadmap_stages").select("section,label,branch,position,map_x,map_y"),
   ]);
   const tasks = (t ?? []) as JourneyTask[];
-  const nodes = stageNodes(tasks, (s ?? []) as StageMeta[]);
+  const model = buildMapModel(tasks);
   const summary = progressSummary(tasks);
   const { primary, parallel } = focus(tasks);
   return (
@@ -36,7 +36,7 @@ export default async function JourneyPage() {
           {primary?.action_href && <p style={{ margin: "8px 0 0" }}><Link className="btn" href={primary.action_href}>Go</Link></p>}
           {parallel.length > 0 && <p className="muted" style={{ fontSize: 13, margin: "8px 0 0" }}>Also open: {parallel.map((p) => p.title).join(" · ")}</p>}</div>
       </div>
-      <JourneyMap nodes={nodes} tasks={tasks} />
+      <JourneyView model={model} tasks={tasks} journeyId={journey.id} />
     </div>
   );
 }
