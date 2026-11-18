@@ -1,0 +1,206 @@
+{
+  "slug": "interexchange",
+  "name": "InterExchange, Inc.",
+  "website_url": "https://www.interexchange.org/programs/career-training/intern-trainee/",
+  "contact_phone": "2129240446 ext. 853",
+  "address": "1 STATE ST, Fl 17, NEW YORK, NY 10004",
+  "designation_source_url": "https://j1visa.state.gov/participants/how-to-apply/sponsor-search/",
+  "designation_verified_at": "2026-11-13",
+  "record_status": "verified",
+  "is_published": true,
+  "notes": "Intern designation seen in the State Department sponsor search. Trainee designation not yet confirmed in the State list, so the trainee program is held back for review.",
+  "sources": {
+    "state": {
+      "url": "https://j1visa.state.gov/participants/how-to-apply/sponsor-search/",
+      "info_type": "designation",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Listing: Intern, InterExchange, Inc."
+    },
+    "fees": {
+      "url": "https://www.interexchange.org/programs/career-training/intern-trainee/",
+      "info_type": "fees",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "2026 program fee table; page metadata updated 2026-10-20"
+    },
+    "selfplace": {
+      "url": "https://www.interexchange.org/programs/career-training/intern-trainee/",
+      "info_type": "self_placement",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Applicants must find their own internship; InterExchange does not offer placement"
+    },
+    "inclusions": {
+      "url": "https://www.interexchange.org/programs/career-training/intern-trainee/inclusions/",
+      "info_type": "services",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "What is and is not included; page updated 2026-07-15"
+    },
+    "rules": {
+      "url": "https://interexchange.org/career-training-usa/application-instructions",
+      "info_type": "requirements",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Eligibility and reapplication rules"
+    }
+  },
+  "programs": [
+    {
+      "category": "intern",
+      "max_duration_months": 12,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "state",
+      "fields": [],
+      "notes": "Hospitality and tourism programs are limited to 12 months.",
+      "designation_evidence": "state_directory"
+    },
+    {
+      "category": "trainee",
+      "max_duration_months": 18,
+      "record_status": "needs_review",
+      "verified_at": null,
+      "designation_source": null,
+      "fields": [],
+      "notes": "Offered per the sponsor site; State listing not yet confirmed.",
+      "designation_evidence": "sponsor_statement"
+    }
+  ],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "required",
+      "detail": "You must first find your own internship or training position at an eligible U.S. company. InterExchange does not offer placement.",
+      "source": "selfplace",
+      "review_status": "verified",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [
+    {
+      "category": null,
+      "requirement_type": "eligibility",
+      "description": "You must apply from outside the USA. InterExchange cannot assist with a change of status from another visa.",
+      "source": "fees"
+    },
+    {
+      "category": null,
+      "requirement_type": "program_rule",
+      "description": "Hospitality and tourism programs cannot exceed 12 months, for both Intern and Trainee.",
+      "source": "fees"
+    },
+    {
+      "category": null,
+      "requirement_type": "program_rule",
+      "description": "Previous Intern or Trainee participants must wait at least 2 years after the end of a previous program before reapplying.",
+      "source": "rules"
+    }
+  ],
+  "fee_schedules": [
+    {
+      "label": "Career Training USA 2026 program fees (standard)",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": null,
+      "formula": {
+        "base_cents": 125000,
+        "step_cents": 10000,
+        "step_until_month": 12,
+        "late_step_cents": 5000,
+        "last_month": 18
+      },
+      "is_itemized_complete": false,
+      "inclusions_confirmed": true,
+      "notes": "A $300 nonrefundable application fee is due with your application and is applied to the total program fee, so it is not an additional cost. Applying through an attorney or an international cooperator may change the price. The sponsor lists miscellaneous fees that apply to some participants without naming them, so this estimate may be incomplete.",
+      "source": "fees",
+      "inclusion_source": "inclusions",
+      "inclusions": [
+        {
+          "service_key": "ds2019",
+          "detail": "J-1 visa sponsorship and DS-2019 issuance"
+        },
+        {
+          "service_key": "sevis_fee",
+          "detail": "$220 SEVIS fee paid by InterExchange on your behalf"
+        },
+        {
+          "service_key": "insurance",
+          "detail": "Accident and sickness insurance for the whole program plus a 30-day grace period"
+        },
+        {
+          "service_key": "support",
+          "detail": "24-hour emergency support and monthly check-ins"
+        },
+        {
+          "service_key": "orientation",
+          "detail": "Online orientation and pre-departure materials"
+        }
+      ],
+      "optional_components": [
+        {
+          "label": "Expedited application review (3 days)",
+          "amount_cents": null,
+          "notes": "Offered for an additional fee; amount not found."
+        }
+      ]
+    },
+    {
+      "label": "Career Training USA 2026 program fees (Canada, France, Italy, UK residents)",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": [
+        "Canada",
+        "France",
+        "Italy",
+        "United Kingdom",
+        "UK"
+      ],
+      "formula": {
+        "base_cents": 115000,
+        "step_cents": 10000,
+        "step_until_month": 12,
+        "late_step_cents": 5000,
+        "last_month": 18
+      },
+      "is_itemized_complete": false,
+      "inclusions_confirmed": true,
+      "notes": "Reduced fee for permanent residents of Canada, France, Italy, and the UK. The $300 application fee is applied to the program fee. Miscellaneous fees may apply to some participants.",
+      "source": "fees",
+      "inclusion_source": "inclusions",
+      "inclusions": [
+        {
+          "service_key": "ds2019",
+          "detail": "J-1 visa sponsorship and DS-2019 issuance"
+        },
+        {
+          "service_key": "sevis_fee",
+          "detail": "$220 SEVIS fee paid by InterExchange on your behalf"
+        },
+        {
+          "service_key": "insurance",
+          "detail": "Accident and sickness insurance for the whole program plus a 30-day grace period"
+        },
+        {
+          "service_key": "support",
+          "detail": "24-hour emergency support and monthly check-ins"
+        },
+        {
+          "service_key": "orientation",
+          "detail": "Online orientation and pre-departure materials"
+        }
+      ],
+      "optional_components": []
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "cetusa",
+  "name": "Council for Educational Travel USA (CETUSA)",
+  "website_url": "http://cetusa.org",
+  "contact_phone": "(949) 940-1140",
+  "address": "678 FRONT AVE NW, Suite 091A, GRAND RAPIDS, MI 49504",
+  "designation_source_url": "https://j1visa.state.gov/sponsors/designated-sponsor-list-by-program/",
+  "designation_verified_at": "2026-11-13",
+  "record_status": "verified",
+  "is_published": true,
+  "notes": "Intern designation confirmed in the State Department list. CETUSA's own participant fee and policy pages were not found, so fees, services, and self-placement are stored as unknown.",
+  "sources": {
+    "state": {
+      "url": "https://j1visa.state.gov/sponsors/designated-sponsor-list-by-program/",
+      "info_type": "designation",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Listing: Intern, Council for Educational Travel USA (CETUSA)"
+    }
+  },
+  "programs": [
+    {
+      "category": "intern",
+      "max_duration_months": null,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "state",
+      "fields": [],
+      "notes": null,
+      "designation_evidence": "state_directory"
+    }
+  ],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "unknown",
+      "detail": "Not confirmed.",
+      "source": null,
+      "review_status": "verified",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [],
+  "fee_schedules": []
+}

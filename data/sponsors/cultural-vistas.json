@@ -1,0 +1,312 @@
+{
+  "slug": "cultural-vistas",
+  "name": "Cultural Vistas, Inc.",
+  "website_url": "https://culturalvistas.org/our-programs/j1services/j1-visa-sponsorship-intern-trainee",
+  "contact_phone": "(212) 497-3500",
+  "address": "1250 H Street NW, Suite 300, Washington, DC 20005",
+  "designation_source_url": "https://culturalvistas.org/our-programs/j1services",
+  "designation_verified_at": "2026-11-13",
+  "record_status": "verified",
+  "is_published": true,
+  "notes": "Fees from Cultural Vistas' official J-1 fee disclosure. Designation is stated on its official site (Interns and Trainees); the State Department directory row was not retrieved, so confirm on j1visa.state.gov. Cultural Vistas also appears in ICE's 2024 list of program sponsors.",
+  "sources": {
+    "designation": {
+      "url": "https://culturalvistas.org/our-programs/j1services",
+      "info_type": "designation",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Site states it is a designated sponsor for Interns and Trainees"
+    },
+    "fees": {
+      "url": "https://culturalvistas.org/j-1-fees-intern-trainee-research-scholar-specialist",
+      "info_type": "fees",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Program Fees Disclosure"
+    },
+    "program": {
+      "url": "https://culturalvistas.org/our-programs/j1services/j1-visa-sponsorship-intern-trainee",
+      "info_type": "program",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Intern up to 12 months, Trainee up to 18 months"
+    }
+  },
+  "programs": [
+    {
+      "category": "intern",
+      "max_duration_months": 12,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "designation",
+      "designation_evidence": "sponsor_statement",
+      "fields": [],
+      "notes": "For students and recent graduates of universities outside the U.S."
+    },
+    {
+      "category": "trainee",
+      "max_duration_months": 18,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "designation",
+      "designation_evidence": "sponsor_statement",
+      "fields": [],
+      "notes": "For experienced professionals."
+    }
+  ],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "unknown",
+      "detail": "The pages reviewed describe separate applications from the participant and the host company, but do not say whether Cultural Vistas helps find a host.",
+      "source": null,
+      "review_status": "verified",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [
+    {
+      "category": null,
+      "requirement_type": "eligibility",
+      "description": "Fees depend on student status. Student means currently enrolled in a post-secondary degree program outside the United States.",
+      "source": "fees"
+    },
+    {
+      "category": null,
+      "requirement_type": "program_rule",
+      "description": "Participants must have health insurance through Cultural Vistas. Canadian citizens are exempt from the visa interview and visa fee.",
+      "source": "fees"
+    }
+  ],
+  "fee_schedules": [
+    {
+      "label": "Cultural Vistas program fees, students",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": null,
+      "applies_to_education": [
+        "current_student"
+      ],
+      "is_itemized_complete": true,
+      "inclusions_confirmed": true,
+      "notes": "Program, insurance, and SEVIS fees are mandatory. The 13 to 18 month tier is not offered to students. Prices are subject to change.",
+      "source": "fees",
+      "inclusion_source": "fees",
+      "inclusions": [],
+      "components": [
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 1-3 months",
+          "amount_cents": 90000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 1,
+          "duration_max_months": 3,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 4-6 months",
+          "amount_cents": 112500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 4,
+          "duration_max_months": 6,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 7-12 months",
+          "amount_cents": 137500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 7,
+          "duration_max_months": 12,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sevis_fee",
+          "label": "SEVIS I-901 fee (paid by Cultural Vistas on your behalf)",
+          "amount_cents": 22000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "insurance",
+          "label": "Standard Lite insurance, $60 per month",
+          "amount_cents": 6000,
+          "per": "per_month",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": "insurance_plan",
+          "notes": null
+        },
+        {
+          "component_type": "insurance",
+          "label": "Enhanced insurance, $100 per month",
+          "amount_cents": 10000,
+          "per": "per_month",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": "insurance_plan",
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited review, 10 business days",
+          "amount_cents": 135000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited review, 5 business days",
+          "amount_cents": 150000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "label": "Cultural Vistas program fees, non-students",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": null,
+      "applies_to_education": [
+        "recent_graduate",
+        "graduate_with_experience"
+      ],
+      "is_itemized_complete": true,
+      "inclusions_confirmed": true,
+      "notes": "Program, insurance, and SEVIS fees are mandatory. Prices are subject to change.",
+      "source": "fees",
+      "inclusion_source": "fees",
+      "inclusions": [],
+      "components": [
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 1-3 months",
+          "amount_cents": 99500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 1,
+          "duration_max_months": 3,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 4-6 months",
+          "amount_cents": 139500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 4,
+          "duration_max_months": 6,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 7-12 months",
+          "amount_cents": 169500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 7,
+          "duration_max_months": 12,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 13-18 months",
+          "amount_cents": 189500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 13,
+          "duration_max_months": 18,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sevis_fee",
+          "label": "SEVIS I-901 fee (paid by Cultural Vistas on your behalf)",
+          "amount_cents": 22000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "insurance",
+          "label": "Standard Lite insurance, $60 per month",
+          "amount_cents": 6000,
+          "per": "per_month",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": "insurance_plan",
+          "notes": null
+        },
+        {
+          "component_type": "insurance",
+          "label": "Enhanced insurance, $100 per month",
+          "amount_cents": 10000,
+          "per": "per_month",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": "insurance_plan",
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited review, 10 business days",
+          "amount_cents": 135000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited review, 5 business days",
+          "amount_cents": 150000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

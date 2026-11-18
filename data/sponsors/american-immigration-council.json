@@ -1,0 +1,177 @@
+{
+  "slug": "american-immigration-council",
+  "name": "American Immigration Council",
+  "website_url": "https://www.americanimmigrationcouncil.org/cultural-exchange/",
+  "contact_phone": "2025077532",
+  "address": "1331 G ST NW, Suite 200, WASHINGTON, DC 20005",
+  "designation_source_url": "https://j1visa.state.gov/participants/how-to-apply/sponsor-search/",
+  "designation_verified_at": "2026-11-13",
+  "record_status": "verified",
+  "is_published": true,
+  "notes": "Intern and Trainee rows seen in the State Department sponsor search. Fees from AIC's Fees & Refund Policies page (modified 2026-07-24).",
+  "sources": {
+    "state": {
+      "url": "https://j1visa.state.gov/participants/how-to-apply/sponsor-search/",
+      "info_type": "designation",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Listings: Intern and Trainee, American Immigration Council, Inc."
+    },
+    "fees": {
+      "url": "https://www.americanimmigrationcouncil.org/fees/",
+      "info_type": "fees",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Mandatory fees, insurance, and expedited services"
+    },
+    "program": {
+      "url": "https://www.americanimmigrationcouncil.org/exchange-visitor/trainees-interns/",
+      "info_type": "program",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Eligibility, duration, and no placement services"
+    },
+    "selfplace": {
+      "url": "https://www.americanimmigrationcouncil.org/exchange-visitor/trainees-interns/",
+      "info_type": "self_placement",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "AIC does not provide recruitment or placement services"
+    }
+  },
+  "programs": [
+    {
+      "category": "intern",
+      "max_duration_months": null,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "state",
+      "designation_evidence": "state_directory",
+      "fields": [],
+      "notes": "Maximum intern length not stated on the pages reviewed."
+    },
+    {
+      "category": "trainee",
+      "max_duration_months": 18,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "state",
+      "designation_evidence": "state_directory",
+      "fields": [],
+      "notes": "Page lists a minimum of 3 weeks and a maximum of 18 months."
+    }
+  ],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "required",
+      "detail": "AIC does not provide recruitment or placement services. You need a host organization, and both you and the host complete the sponsorship application.",
+      "source": "selfplace",
+      "review_status": "verified",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [
+    {
+      "category": null,
+      "requirement_type": "eligibility",
+      "description": "Minimum age 18. A video interview with AIC is required before approval.",
+      "source": "program"
+    },
+    {
+      "category": null,
+      "requirement_type": "program_rule",
+      "description": "AIC cannot knowingly sponsor people whose host intends to file a change of status after arrival in the U.S.",
+      "source": "program"
+    }
+  ],
+  "fee_schedules": [
+    {
+      "label": "AIC Fees & Refund Policies (current)",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": null,
+      "applies_to_education": null,
+      "is_itemized_complete": false,
+      "inclusions_confirmed": false,
+      "notes": "The page lists a $500 Host Site Fee for host companies with fewer than 25 employees or under $3 million in revenue, but does not say who pays it, so it is not counted here. The page does not say whether you may use an insurance plan other than AIC's. It does not mention the visa application fee, so that is added from the government schedule.",
+      "source": "fees",
+      "inclusion_source": "fees",
+      "inclusions": [],
+      "components": [
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program administration fee (trainees and interns)",
+          "amount_cents": 155000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "processing",
+          "label": "Application review fee",
+          "amount_cents": 55000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": "Non-refundable."
+        },
+        {
+          "component_type": "sevis_fee",
+          "label": "SEVIS fee (collected by AIC)",
+          "amount_cents": 22000,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "insurance",
+          "label": "Sickness and accident insurance, $100 per month",
+          "amount_cents": 10000,
+          "per": "per_month",
+          "is_mandatory": true,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited application review (2 business days)",
+          "amount_cents": 90000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Host Site Fee (host companies under 25 employees or $3M revenue; payer not stated)",
+          "amount_cents": 50000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": "The page does not say whether the host or the participant pays."
+        }
+      ]
+    }
+  ]
+}

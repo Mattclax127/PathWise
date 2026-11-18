@@ -1,0 +1,35 @@
+{
+  "slug": "ciee",
+  "name": "CIEE (Council on International Educational Exchange)",
+  "website_url": "https://www.ciee.org/partner/employers/host-interns-and-trainees",
+  "contact_phone": null,
+  "address": null,
+  "designation_source_url": null,
+  "designation_verified_at": null,
+  "record_status": "needs_review",
+  "is_published": false,
+  "notes": "DRAFT, not published. Designation not confirmed from the State list and no CIEE-published participant fee schedule was found (third-party partner pages show fees; they are not used).",
+  "sources": {
+    "selfplace": {
+      "url": "https://www.ciee.org/partner/employers/host-interns-and-trainees",
+      "info_type": "self_placement",
+      "verified_at": "2026-11-13",
+      "review_status": "needs_review",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Self-arranged internships are possible but still need sponsor approval"
+    }
+  },
+  "programs": [],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "accepted",
+      "detail": "CIEE says self-arranged internships are possible, but applicants still need to work with a J-1 sponsor like CIEE to be approved.",
+      "source": "selfplace",
+      "review_status": "needs_review",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [],
+  "fee_schedules": []
+}

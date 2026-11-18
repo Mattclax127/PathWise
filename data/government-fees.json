@@ -1,0 +1,26 @@
+{
+  "fees": [
+    {
+      "key": "sevis_i901_j",
+      "label": "SEVIS I-901 fee (J-1 exchange visitors, most categories)",
+      "amount_cents": 22000,
+      "applies_to_categories": ["intern", "trainee"],
+      "included_in_comparison": true,
+      "source_url": "https://studyinthestates.dhs.gov/assets/pdf/SEVP_FeeRulesInfographic_250502_v5_BW.pdf",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "note": "Source is a DHS fee infographic dated May 2025. The reduced $35 fee applies to au pair, camp counselor, and summer work travel participants, not interns or trainees. Re-check before launch."
+    },
+    {
+      "key": "visa_mrv_nonimmigrant",
+      "label": "Nonimmigrant visa application processing fee (MRV), J visa",
+      "amount_cents": 18500,
+      "applies_to_categories": ["intern", "trainee"],
+      "included_in_comparison": true,
+      "source_url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/fees-visa-services.html",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "note": "Some nationalities may also owe a visa issuance (reciprocity) fee, which is not included here. Check the State Department fee page for your country."
+    }
+  ]
+}

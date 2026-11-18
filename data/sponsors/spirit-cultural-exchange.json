@@ -1,0 +1,192 @@
+{
+  "slug": "spirit-cultural-exchange",
+  "name": "Spirit Cultural Exchange",
+  "website_url": "https://www.spiritexchange.com/travel/j-1-internship-programs/",
+  "contact_phone": null,
+  "address": "137 North Oak Park Avenue, Suite 304, Oak Park, IL 60301",
+  "designation_source_url": "https://www.spiritexchange.com/travel/j-1-internship-programs/",
+  "designation_verified_at": "2026-11-13",
+  "record_status": "verified",
+  "is_published": true,
+  "notes": "Fees from Spirit's Intern/Trainee page (modified 2026-05-06), for independent (self-arranged) placements. Designation is stated on its official site; the State Department directory row was not retrieved, so confirm on j1visa.state.gov. Spirit also appears in ICE's 2024 list of program sponsors.",
+  "sources": {
+    "page": {
+      "url": "https://www.spiritexchange.com/travel/j-1-internship-programs/",
+      "info_type": "fees",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Program costs, inclusions, exclusions, fields, and eligibility"
+    },
+    "selfplace": {
+      "url": "https://www.spiritexchange.com/travel/j-1-internship-programs/",
+      "info_type": "self_placement",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Independent Placement option sponsors self-arranged internships"
+    },
+    "designation": {
+      "url": "https://www.spiritexchange.com/travel/j-1-internship-programs/",
+      "info_type": "designation",
+      "verified_at": "2026-11-13",
+      "review_status": "verified",
+      "reviewer": "research draft 2026-11-13",
+      "note": "Site states it is designated for Intern and Trainee"
+    }
+  },
+  "programs": [
+    {
+      "category": "intern",
+      "max_duration_months": 12,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "designation",
+      "designation_evidence": "sponsor_statement",
+      "fields": [
+        "Hospitality and Tourism",
+        "Management, Business, Commerce and Finance",
+        "Information Media and Communications",
+        "The Sciences, Engineering, Architecture, Mathematics, and Industrial Occupations",
+        "Arts and Culture",
+        "Education, Social Sciences, Library Science, Counseling and Social Services",
+        "Public Administration and Law"
+      ],
+      "notes": "Minimum program length is 3 weeks."
+    },
+    {
+      "category": "trainee",
+      "max_duration_months": 18,
+      "record_status": "verified",
+      "verified_at": "2026-11-13",
+      "designation_source": "designation",
+      "designation_evidence": "sponsor_statement",
+      "fields": [
+        "Hospitality and Tourism",
+        "Management, Business, Commerce and Finance",
+        "Information Media and Communications",
+        "The Sciences, Engineering, Architecture, Mathematics, and Industrial Occupations",
+        "Arts and Culture",
+        "Education, Social Sciences, Library Science, Counseling and Social Services",
+        "Public Administration and Law"
+      ],
+      "notes": "Hospitality and Tourism trainees are limited to 12 months."
+    }
+  ],
+  "policies": [
+    {
+      "policy_key": "self_placement",
+      "value": "accepted",
+      "detail": "Independent Placement option is for applicants who find their own host. A separate Premium Placement option exists for hospitality only, for a fee that is not published.",
+      "source": "selfplace",
+      "review_status": "verified",
+      "verified_at": "2026-11-13"
+    }
+  ],
+  "requirements": [
+    {
+      "category": "intern",
+      "requirement_type": "eligibility",
+      "description": "Generally a full-time student, or graduated within the last 12 months, from a post-secondary institution outside the U.S., with a degree in the same field as the internship.",
+      "source": "page"
+    },
+    {
+      "category": "trainee",
+      "requirement_type": "eligibility",
+      "description": "Generally a degree plus at least one year of related full-time experience, or five years of experience, gained outside the U.S.",
+      "source": "page"
+    },
+    {
+      "category": null,
+      "requirement_type": "eligibility",
+      "description": "Online or distance-learning degrees do not qualify. Most programs cannot support J-2 spouses and dependents.",
+      "source": "page"
+    },
+    {
+      "category": null,
+      "requirement_type": "program_rule",
+      "description": "Not sponsored: housekeeping, bartending, valet driving, receptionist, counter-service dining, machinery operation, retail, amusement parks, water parks.",
+      "source": "page"
+    }
+  ],
+  "fee_schedules": [
+    {
+      "label": "Spirit estimated program fees (independent matches)",
+      "categories": [
+        "intern",
+        "trainee"
+      ],
+      "applies_to_residence": null,
+      "applies_to_education": null,
+      "is_itemized_complete": false,
+      "inclusions_confirmed": true,
+      "notes": "No fee is due until after application review and acceptance of an approved internship offer. Not included: site visits outside the Chicago area (if applicable), airfare and living costs, and other elective fees, so this may be incomplete.",
+      "source": "page",
+      "inclusion_source": "page",
+      "inclusions": [
+        {
+          "service_key": "insurance",
+          "detail": "Regulatory-required medical insurance during program dates"
+        },
+        {
+          "service_key": "ds2019",
+          "detail": "Electronic DS-2019 and DS-7002 issuance"
+        },
+        {
+          "service_key": "support",
+          "detail": "24-hour support and monthly program monitoring"
+        },
+        {
+          "service_key": "orientation",
+          "detail": "Online orientation and pre-arrival guidance"
+        }
+      ],
+      "components": [
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 1-6 months",
+          "amount_cents": 141500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 1,
+          "duration_max_months": 6,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 7-12 months",
+          "amount_cents": 183500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 7,
+          "duration_max_months": 12,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "sponsor_program_fee",
+          "label": "Program fee, 13-18 months",
+          "amount_cents": 225500,
+          "per": "one_time",
+          "is_mandatory": true,
+          "duration_min_months": 13,
+          "duration_max_months": 18,
+          "choice_group": null,
+          "notes": null
+        },
+        {
+          "component_type": "optional_service",
+          "label": "Expedited processing",
+          "amount_cents": 75000,
+          "per": "one_time",
+          "is_mandatory": false,
+          "duration_min_months": null,
+          "duration_max_months": null,
+          "choice_group": null,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}
