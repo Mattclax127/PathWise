@@ -180,7 +180,7 @@ export default function IslandMap({ model, journeyId }: { model: MapModel; journ
           </g>
           <g id="layer-landmarks" aria-hidden="true">
             {LANDMARK_SVG.map((svg, i) => <g key={i} transform={`translate(${ART_BOXES[i][0]} ${ART_BOXES[i][1]})`} dangerouslySetInnerHTML={{ __html: svg }} />)}
-            {ART_BOXES.map(([x, y, bw, bh], i) => { const p = pointAt(STAGE_F[i]); return <line key={i} x1={x + bw / 2} y1={y + bh - 14} x2={p.x} y2={p.y} stroke="#fcfff4" strokeWidth={3} strokeDasharray="3 12" strokeLinecap="round" opacity={0.72} />; })}
+            {ART_BOXES.map(([x, y, bw, bh], i) => { const p = pointAt(STAGE_F[i]); return <line key={i} x1={x + bw / 2} y1={y < 400 ? y + bh : y} x2={p.x} y2={p.y} stroke="#fcfff4" strokeWidth={3} strokeDasharray="3 12" strokeLinecap="round" opacity={0.72} />; })}
           </g>
           <g id="layer-ui">
             {nodes.filter((n) => n.kind === "checkpoint").map((n) => <Marker key={n.id} n={n} c={c} compact={compact} selected={selected === n.id} onPick={() => focusNode(n)} />)}

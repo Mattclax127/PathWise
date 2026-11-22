@@ -6,7 +6,7 @@
 type Pal = { f: string; s: string; t: string; k: string };
 
 /** Landmark art boxes [x, y, width, height] in map units, in stage order. */
-export const ART_BOXES: ReadonlyArray<readonly [number, number, number, number]> = [[20,556,260,150],[400,520,290,170],[385,18,290,185],[718,8,290,185],[960,553,250,147],[1170,0,330,165]];
+export const ART_BOXES: ReadonlyArray<readonly [number, number, number, number]> = [[40,574,220,116],[435,546,220,116],[420,89,220,116],[753,69,220,116],[973,579,220,116],[1243,32,234,116]];
 
 export const DEFS_SVG = String.raw`<linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9e9f4"/><stop offset="1" stop-color="#72cadb"/></linearGradient>
 <linearGradient id="isle" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e5f4d9"/><stop offset="1" stop-color="#c7e6be"/></linearGradient>
@@ -31,7 +31,63 @@ export const DEFS_SVG = String.raw`<linearGradient id="sea" x1="0" y1="0" x2="0"
 <symbol id="shrub" viewBox="-25 -18 50 36"><ellipse cy="12" rx="23" ry="5" fill="#5b9b7b" opacity=".25"/><circle cx="-10" cy="-2" r="12" fill="#4d9d6c"/><circle cx="2" cy="-9" r="15" fill="#75c582"/><circle cx="14" cy="-1" r="12" fill="#399066"/><circle cx="-4" cy="-11" r="3" fill="#a8e59b"/><circle cx="8" cy="-13" r="3" fill="#a8e59b"/></symbol>
 <symbol id="flower" viewBox="-15 -18 30 36"><path d="M0 15 L0 -2" stroke="#499467" stroke-width="3"/><ellipse cx="-5" cy="7" rx="5" ry="2" fill="#599d70" transform="rotate(35 -5 7)"/><g fill="#f89ab0"><circle cx="-5" cy="-8" r="5"/><circle cx="5" cy="-8" r="5"/><circle cx="0" cy="-13" r="5"/><circle cx="0" cy="-3" r="5"/></g><circle cx="0" cy="-8" r="3" fill="#ffe187"/></symbol>
 <symbol id="stone" viewBox="-25 -20 50 35"><ellipse cy="10" rx="20" ry="5" fill="#65a189" opacity=".27"/><path d="M-20 6L-12 -8L7 -13L23 3L15 11L-13 11Z" fill="#b9c7b4" stroke="#8ca99e" stroke-width="2"/><path d="M-12 -8L7 -13L11 -1L-4 1Z" fill="#e1e6cc" opacity=".7"/></symbol>
-<!-- Landmark art symbols: designed to sit to the SIDE of the fixed road, not in it. -->`;
+<!-- Landmark art symbols: designed to sit to the SIDE of the fixed road, not in it. -->
+<symbol id="art-start" viewBox="0 0 220 116">
+ <ellipse cx="109" cy="100" rx="83" ry="13" fill="#4b9a76" opacity=".21"/>
+ <ellipse cx="108" cy="93" rx="84" ry="19" fill="#f5e0b7" stroke="#d8bf90" stroke-width="4"/>
+ <path d="M41 82V38 M176 82V38" stroke="#9a7c61" stroke-width="10" stroke-linecap="round"/><path d="M37 44 Q109 -13 180 44" fill="none" stroke="#e9ba78" stroke-width="19" stroke-linecap="round"/><path d="M35 44 Q109 -14 182 44" fill="none" stroke="#fff3d2" stroke-width="8" stroke-linecap="round"/>
+ <path d="M93 49 L109 57L126 49" fill="none" stroke="#42a7a1" stroke-width="6" stroke-linecap="round"/>
+ <circle cx="42" cy="89" r="13" fill="#6ebd74"/><circle cx="178" cy="89" r="13" fill="#6ebd74"/>
+</symbol>
+<symbol id="art-employer" viewBox="0 0 220 116">
+ <ellipse cx="109" cy="103" rx="85" ry="11" fill="#457e81" opacity=".2"/>
+ <rect x="46" y="41" width="127" height="60" rx="5" fill="url(#wall)" stroke="#beab8c" stroke-width="3"/>
+ <path d="M39 43 L54 25H170L185 43Z" fill="#7ab9bd" stroke="#467f94" stroke-width="3"/>
+ <rect x="41" y="41" width="136" height="22" rx="3" fill="#fff" stroke="#6d91a7" stroke-width="2"/>
+ <path d="M41 42h17v21H41z M75 42h17v21H75z M109 42h17v21h-17z M143 42h17v21h-17z" fill="#58afd0"/>
+ <rect x="59" y="68" width="47" height="33" rx="2" fill="url(#glass)" stroke="#7fa4a7" stroke-width="2"/><path d="M83 68v33" stroke="#ecf8f7" stroke-width="3"/>
+ <rect x="125" y="68" width="34" height="33" fill="#7cc7d0" stroke="#7fa4a7" stroke-width="2"/>
+ <path d="M135 77h15m-7 -7v22" stroke="#edf7f3" stroke-width="3" opacity=".8"/><circle cx="34" cy="92" r="12" fill="#5caa72"/><circle cx="183" cy="92" r="12" fill="#5caa72"/>
+</symbol>
+<symbol id="art-sponsor" viewBox="0 0 220 116">
+ <ellipse cx="110" cy="105" rx="82" ry="10" fill="#457e81" opacity=".2"/>
+ <rect x="58" y="26" width="111" height="73" rx="4" fill="#f5fcf8" stroke="#89b4bb" stroke-width="3"/>
+ <rect x="54" y="21" width="120" height="11" rx="4" fill="#7eabb8"/>
+ <rect x="77" y="34" width="74" height="52" fill="url(#glass)" stroke="#64a5b2" stroke-width="2"/>
+ <path d="M95 34v52m18 -52v52m18 -52v52 M77 49h74M77 67h74" stroke="#f4ffff" stroke-width="3"/>
+ <rect x="100" y="73" width="28" height="26" fill="#346d85"/><path d="M114 73v26" stroke="#a4dce5" stroke-width="2"/>
+ <rect x="43" y="90" width="16" height="10" rx="3" fill="#74b88b"/><rect x="169" y="90" width="18" height="10" rx="3" fill="#74b88b"/>
+</symbol>
+<symbol id="art-documents" viewBox="0 0 220 116">
+ <ellipse cx="110" cy="105" rx="85" ry="10" fill="#457e81" opacity=".2"/>
+ <rect x="47" y="48" width="132" height="53" rx="4" fill="url(#wall)" stroke="#c3ae92" stroke-width="3"/>
+ <path d="M38 51L62 33H166L190 51Z" fill="#78a7bb" stroke="#527e9c" stroke-width="3"/>
+ <path d="M64 37L110 12L166 37" fill="none" stroke="#b7d0d4" stroke-width="9" stroke-linecap="round"/>
+ <rect x="89" y="64" width="42" height="37" rx="4" fill="#4b879c"/>
+ <rect x="95" y="60" width="30" height="35" rx="2" fill="#fffdf4" transform="rotate(-4 110 78)"/>
+ <path d="M101 70h16M101 76h16M101 82h11" stroke="#75b2c1" stroke-width="3" stroke-linecap="round"/>
+ <rect x="57" y="62" width="22" height="22" fill="#a6d5db"/><rect x="141" y="62" width="22" height="22" fill="#a6d5db"/>
+ <circle cx="30" cy="93" r="13" fill="#6bb985"/><circle cx="190" cy="93" r="13" fill="#6bb985"/>
+</symbol>
+<symbol id="art-visa" viewBox="0 0 220 116">
+ <ellipse cx="113" cy="105" rx="94" ry="9" fill="#457e81" opacity=".18"/>
+ <rect x="42" y="52" width="119" height="49" rx="3" fill="url(#wall)" stroke="#c1ae92" stroke-width="3"/>
+ <path d="M36 52 L55 36H151L168 52Z" fill="#9fc1cc" stroke="#618fa1" stroke-width="3"/>
+ <rect x="64" y="63" width="27" height="22" rx="2" fill="#90c9d5"/><rect x="107" y="61" width="29" height="40" fill="#41889d"/>
+ <rect x="166" y="79" width="27" height="22" rx="2" fill="#e9f5f1" stroke="#6da2ac" stroke-width="3"/>
+ <path d="M177 78V32" stroke="#89969d" stroke-width="3"/>
+ <path d="M178 33l22 5-22 7Z" fill="#ed8f7f"/>
+ <path d="M160 80H198" stroke="#db7365" stroke-width="5"/>
+</symbol>
+<symbol id="art-arrival" viewBox="0 0 230 116">
+ <ellipse cx="114" cy="102" rx="99" ry="11" fill="#457e81" opacity=".2"/>
+ <rect x="33" y="58" width="28" height="43" rx="3" fill="#85c3d1"/><rect x="64" y="36" width="30" height="65" rx="3" fill="#528fad"/><rect x="98" y="50" width="22" height="51" rx="3" fill="#8fbec8"/><rect x="124" y="28" width="34" height="73" rx="4" fill="#6aa4b7"/><rect x="162" y="49" width="29" height="52" rx="3" fill="#a7d2d4"/>
+ <path d="M44 68h8m-8 9h8m29 -25h9m-9 11h9m-9 11h9m51 -33h14m-14 11h14m-14 11h14m-14 11h14m25 -14h10m-10 11h10" stroke="#ebf7e8" stroke-width="4"/>
+ <path d="M17 95Q114 83 210 95L210 107H17Z" fill="#f5d4a3" stroke="#d9b480" stroke-width="3"/>
+ <path d="M202 89V32" stroke="#677e92" stroke-width="4"/><path d="M204 34h-30v22h30Z" fill="#fff" stroke="#2d516b" stroke-width="1"/>
+ <path d="M174 34h10v11h-10z M194 34h10v11h-10z M184 45h10v11h-10z" fill="#234c62"/>
+</symbol>
+`;
 
 export const BACKGROUND_SVG = String.raw`<rect width="1600" height="900" fill="url(#ocean2)"/>
  <g stroke="#edfffc" stroke-width="3" stroke-linecap="round" opacity=".34" fill="none">
@@ -84,4 +140,9 @@ const L: Array<() => string> = [
  +Array.from({length:12},(_: unknown, i: number) => rct(278+(i%4)*8,56+Math.floor(i/4)*8,8,8,(i+Math.floor(i/4))%2?'#14284B':'#fff',0,'#14284B',.5)).join('')
  +`<g transform="translate(70 12)" fill="#fff" stroke="#8aa7b8" stroke-width="1.5"><path d="M0 8l28-4 8-6 3 1-5 8 22 1-3 3-22 0 5 8-3 1-8-6-25-2Z"/></g>`];
 
-export const LANDMARK_SVG: string[] = L.map((fn) => fn());
+/** Oblique 2.5D landmark set (previous style). Kept as an alternative; not rendered. */
+export const LANDMARK_SVG_OBLIQUE: string[] = L.map((fn) => fn());
+
+/** Flat symbol landmarks from the approved simple prototype, one per stage, drawn at each box origin. */
+const ART_IDS = ["start", "employer", "sponsor", "documents", "visa", "arrival"] as const;
+export const LANDMARK_SVG: string[] = ART_IDS.map((id, i) => `<use href="#art-${id}" x="0" y="0" width="${ART_BOXES[i][2]}" height="${ART_BOXES[i][3]}" filter="url(#softshadow)"/>`);
