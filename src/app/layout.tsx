@@ -7,7 +7,7 @@ import "./globals.css";
 
 const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 const head = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["700", "800"], variable: "--font-head" });
-export const metadata: Metadata = { title: "PathWise", description: "Plan your J-1 journey." };
+export const metadata: Metadata = { title: "PathWise: plan your J-1 internship", description: "Check which J-1 path may fit you, understand the process and compare sponsors before you pay anyone." };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createClient();
@@ -27,7 +27,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             </>) : (<>
               <Link href="/sponsors">Sponsors</Link>
               <Link href="/login">Log in</Link>
-              <Link className="btn" href="/signup">Get started</Link>
+              <Link className="btn" href="/check">Free check</Link>
             </>)}
           </nav>
         </div></header>

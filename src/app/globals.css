@@ -59,3 +59,12 @@ input,select,textarea{font:inherit;padding:11px 13px;border:1px solid #9FB0D3;bo
 .pwm-cps li.done .pwm-dot{background:#35AF94;border-color:#35AF94}.pwm-cps li.confirmed .pwm-dot{background:#FFC85A;border-color:#14284B;border-radius:2px;transform:rotate(45deg)}
 .pwm-cps li.waiting .pwm-dot{border-color:var(--coral);border-style:dashed}.pwm-cps li.next .pwm-dot{border-color:var(--blue);background:#D8E6FF}
 @media (prefers-reduced-motion:reduce){.pwm-pulse{animation:none}}
+
+/* Landing + waitlist test */
+.hero{background:linear-gradient(180deg,var(--sky),var(--warm));padding:64px 0 48px;text-align:center}
+.hero h1{font-size:clamp(32px,6vw,52px);font-weight:800;line-height:1.1;max-width:760px;margin:0 auto 14px}
+.lead{font-size:clamp(17px,2.4vw,20px);line-height:1.55;color:var(--slate);max-width:620px;margin:0 auto 24px}
+.btn.big{padding:15px 28px;font-size:18px}.small{font-size:13px}
+.sect{padding-top:36px;padding-bottom:12px}.sect>h2{font-size:26px;margin-bottom:16px}
+.grid3{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+label{display:block;margin:14px 0 4px;font-weight:600}label>input,label>select{margin-top:6px;font-weight:400}
